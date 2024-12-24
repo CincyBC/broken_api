@@ -1,0 +1,13 @@
+[project]
+name = "broken-api"
+version = "0.1.0"
+description = "This is a purposely broken API used for testing automated debugging."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.6",
+    "h2>=4.1.0",
+    "httpx<0.28.0",
+    "slack-sdk>=3.34.0",
+    "uvicorn>=0.34.0",
+]
